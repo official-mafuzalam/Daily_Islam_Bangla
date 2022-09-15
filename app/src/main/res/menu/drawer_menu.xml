@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/icon_home"
+            android:title="Home">
+        </item>
+        <item android:id="@+id/nav_aboutUs"
+            android:icon="@drawable/icon_about"
+            android:title="About us">
+        </item>
+<!--        <item android:id="@+id/nav_drawer2"-->
+<!--            android:icon="@drawable/icon_contact"-->
+<!--            android:title="Contact">-->
+<!--        </item>-->
+    </group>
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+
+        <item android:id="@+id/nav_share"
+            android:icon="@drawable/icon_share"
+            android:title="Share">
+        </item>
+
+        <item android:id="@+id/nav_rate"
+            android:icon="@drawable/icon__star_rate"
+            android:title="Rate Us">
+        </item>
+
+    </group>
+
+</menu>
